@@ -1,4 +1,5 @@
 pip install dataprep
+
      
 import pandas as pd
 import statsmodels.api as sm
@@ -23,7 +24,6 @@ df.gender=encode.fit_transform(df[["gender"]])
 encode1=OrdinalEncoder()
 df.smoking_history=encode1.fit_transform(df[["smoking_history"]])
      
-
 x=df.drop("diabetes",axis=1)
 y=df["diabetes"]
      
