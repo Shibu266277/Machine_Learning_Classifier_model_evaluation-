@@ -26,7 +26,6 @@ df.smoking_history=encode1.fit_transform(df[["smoking_history"]])
 x=df.drop("diabetes",axis=1)
 y=df["diabetes"]
      
-
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.25)
      
 
