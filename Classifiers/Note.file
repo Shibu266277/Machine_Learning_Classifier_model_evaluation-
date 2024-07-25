@@ -1,6 +1,5 @@
 pip install dataprep
      
-
 import pandas as pd
 import statsmodels.api as sm
 from sklearn.preprocessing import OrdinalEncoder
@@ -8,7 +7,6 @@ from dataprep.eda import create_report
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix,accuracy_score
      
-
 df=pd.read_csv("/content/diabetes_prediction_dataset.csv")
 df.head()
      
